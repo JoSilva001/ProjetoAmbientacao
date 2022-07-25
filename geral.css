@@ -1,0 +1,32 @@
+*{
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+.log{
+     align-items: center;
+
+
+}
+
+.main{
+    
+ display: flex;
+ flex-direction: column;
+ width: 30px;
+ align-content: center;
+ padding-left: 30%;
+ 
+}
+/*#senha{
+  display: flex;
+  align-content: flex-end;
+}*/
+#img{
+
+    display:flex;
+    align-items: center;
+}
