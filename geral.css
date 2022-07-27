@@ -6,6 +6,9 @@
   text-decoration: none;
 
 }
+body{
+ background-color: (180deg, rgba(white, .15), rgba(white, 0))
+}
 
 .log{
   
@@ -13,9 +16,11 @@
   justify-content: center;
   flex-direction: column;
   padding: 35px;
+  padding-left: 10%;
   gap: 15px;
-  width: 20%;
+  width: 55%;;
   /*border: solid blue 2px;*/
+
   
  /*align-items: flex-start;
  display: flex;
@@ -23,14 +28,27 @@
  width: 30px;
  align-content: center;
  padding-left: 30%;*/
- 
 }
+.atributos{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 10%;
+  gap: 15px;
+  width: fit-content;
+  /*border: solid purple 2px;*/
+  align-items: flex start;
+  
+}
+
 .main{
   
   /*border: solid 2px blue;*/
   align-content: center;
   padding-left: 30%;
-  
+  justify-content: center;
+  align-items: center;
+  /*border: solid 2px blue;*/
   
 
 }
@@ -41,4 +59,14 @@
    display: flex;
    flex-direction: column;
    align-content: center;
+   /*border: 30px solid cornflowerblue;*/
+   width: fit-content;
+   
+   
+}
+#login{
+  background-color:#f2f6f9;
+}
+#senha{
+  background-color:#f2f6f9;
 }

@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" type="text/css" href="geral.css" media="screen" />
      <title>Módulo de Autenticação Web</title>
 </head>
-
+     
      <body class="main">
      <form method="post" action="sucesso.html" onsubmit="return validar()"> <!-- onsubmit = ao enviar fzr algo-->
+     <header>
      <img src="imagens/logo-senai-azul2.png" alt="logo" id="img">
+     </header>
+     <container class = "mainly">
      <container class="log">
      login <input type="text" name="login" id="login">
      senha <input type="password" name="senha" id="senha">
      <input type="submit" value="enviar">
-     continuar conectado<input type="checkbox" id="continuar conectado"> 
+     </container>
+     <container class="atributos">
+     <!--<continuar conectado<input type="checkbox" id="continuar conectado"> !--> 
       <a href="link">Cadastrar ou recuperar senha </a>
-     
-      </class>
-     </class>
+     </container>
+     </container>
      </form>
      <script src="validar.js"></script>
      </body>
