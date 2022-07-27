@@ -13,23 +13,22 @@ function validar(){
     //Pegar o elemento
     login = document.getElementById("login").value;
     senha = document.getElementById("senha").value;
-    if (login === '' )
+    
+    if (login === '' || senha === '' )
     {
-      alert("login obrigatório");
+      alert("login e senha obrigatórios");
       return false;
     }
-    else if (senha === '')
-    { 
-      alert("senha obrigatória");
-      return false;
+    else if (login === "senai" && senha === "123456")
+    {
+
+      return true;
     }
     else
     {
-        return true;
+        alert("Sai fora")
+        return false;
     }
-    
-
-
 }
 
 /*var input = document.querySelector("input");

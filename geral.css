@@ -15,7 +15,7 @@
   padding: 35px;
   gap: 15px;
   width: 20%;
-  border: solid blue 2px;
+  /*border: solid blue 2px;*/
   
  /*align-items: flex-start;
  display: flex;
@@ -27,7 +27,7 @@
 }
 .main{
   
-  border: solid 2px blue;
+  /*border: solid 2px blue;*/
   align-content: center;
   padding-left: 30%;
   
